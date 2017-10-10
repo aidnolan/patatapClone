@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta http-equiv="Content-Security-Policy" content="media-src 'self' data">
+
 	<title>Circles</title>
 	<script type="text/javascript" src="Paper.js files\dist\paper-full.js"></script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.0.3/howler.core.min.js"></script>
@@ -9,79 +11,79 @@
 		var keyData = {
 	q: {
 		sound: new Howl({
-  		src: ['https://raw.githubusercontent.com/aidnolan/patatapClone/master/sounds/bubbles.mp3']
+  		src: ['https://raw.githubusercontent.com/aidnolan/patatapClone/master/Sounds/bubbles.mp3']
 		}),
 		color: '#1abc9c'
 	},
 	w: {
 		sound: new Howl({
-  		src: ['https://raw.githubusercontent.com/aidnolan/patatapClone/master/sounds/clay.mp3']
+  		src: ['https://raw.githubusercontent.com/aidnolan/patatapClone/master/Sounds/clay.mp3']
 		}),
 		color: '#2ecc71'
 	},
 	e: {
 		sound: new Howl({
-  		src: ['https://raw.githubusercontent.com/aidnolan/patatapClone/master/sounds/confetti.mp3']
+  		src: ['https://raw.githubusercontent.com/aidnolan/patatapClone/master/Sounds/confetti.mp3']
 		}),
 		color: '#3498db'
 	},
 	r: {
 		sound: new Howl({
-  		src: ['https://raw.githubusercontent.com/aidnolan/patatapClone/master/sounds/corona.mp3']
+  		src: ['https://raw.githubusercontent.com/aidnolan/patatapClone/master/Sounds/corona.mp3']
 		}),
 		color: '#9b59b6'
 	},
 		t: {
 		sound: new Howl({
-  		src: ['https://raw.githubusercontent.com/aidnolan/patatapClone/master/sounds/dotted-spiral.mp3']
+  		src: ['https://raw.githubusercontent.com/aidnolan/patatapClone/master/Sounds/dotted-spiral.mp3']
 		}),
 		color: '#34495e'
 	},
 	y: {
 		sound: new Howl({
-  		src: ['https://raw.githubusercontent.com/aidnolan/patatapClone/master/sounds/flash-1.mp3']
+  		src: ['https://raw.githubusercontent.com/aidnolan/patatapClone/master/Sounds/flash-1.mp3']
 		}),
 		color: '#16a085'
 	},
 	u: {
 		sound: new Howl({
-  		src: ['https://raw.githubusercontent.com/aidnolan/patatapClone/master/sounds/flash-2.mp3']
+  		src: ['https://raw.githubusercontent.com/aidnolan/patatapClone/master/Sounds/flash-2.mp3']
 		}),
 		color: '#27ae60'
 	},
 	i: {
 		sound: new Howl({
-  		src: ['https://raw.githubusercontent.com/aidnolan/patatapClone/master/sounds/flash-3.mp3']
+  		src: ['https://raw.githubusercontent.com/aidnolan/patatapClone/master/Sounds/flash-3.mp3']
 		}),
 		color: '#2980b9'
 	},
 	o: {
 		sound: new Howl({
-			src: ['https://raw.githubusercontent.com/aidnolan/patatapClone/master/sounds/glimmer.mp3']
+			src: ['https://raw.githubusercontent.com/aidnolan/patatapClone/master/Sounds/glimmer.mp3']
 		}),
 		color: '#8e44ad'
 	},
 	p: {
 		sound: new Howl({
-  		src: ['https://raw.githubusercontent.com/aidnolan/patatapClone/master/sounds/moon.mp3']
+  		src: ['https://raw.githubusercontent.com/aidnolan/patatapClone/master/Sounds/moon.mp3']
 		}),
 		color: '#2c3e50'
 	},
 	a: {
 		sound: new Howl({
-  		src: ['https://raw.githubusercontent.com/aidnolan/patatapClone/master/sounds/pinwheel.mp3']
+  		src: ['https://raw.githubusercontent.com/aidnolan/patatapClone/master/Sounds/pinwheel.mp3']
 		}),
 		color: '#f1c40f'
 	},
 	s: {
 		sound: new Howl({
-  		src: ['https://raw.githubusercontent.com/aidnolan/patatapClone/master/sounds/piston-1.mp3']
+  		src: ['https://raw.githubusercontent.com/aidnolan/patatapClone/master/Sounds/piston-1.mp3']
 		}),
 		color: '#e67e22'
 	},
 		d: {
 		sound: new Howl({
-  		src: ['https://raw.githubusercontent.com/aidnolan/patatapClone/master/sounds/piston-2.mp3']
+  		src: ['https://raw.githubusercontent.com/aidnolan/patatapClone/master/Sounds/piston-2.mp3']
 		}),
 		color: '#e74c3c'
 	},
@@ -153,7 +155,7 @@
 	},
 	n: {
 		sound: new Howl({
-			src: ['https://raw.githubusercontent.com/aidnolan/patatapClone/master/Sounds/zig-zag.mp3']
+		src: ['https://raw.githubusercontent.com/aidnolan/patatapClone/master/Sounds/zig-zag.mp3']
 		}),
 		color: '#8e44ad'
 	},
